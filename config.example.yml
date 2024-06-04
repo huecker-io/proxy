@@ -1,0 +1,8 @@
+listen: ":6666"
+whitelist:
+  - registry-1.docker.io
+  - auth.docker.io
+  - production.cloudflare.docker.com
+refresh_interval: 1m
+subnet: "fe80::"
+subnet_mask: 64
